@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="card" *ngFor="let o of localProducts">
+        <div class="image">
+            <img src="{{o.url}}_m.jpg" >
+        </div>
+        <button class="btn" kendoButton look="outline"  (click)="deleteProduct(o)" [primary]="true">Remove</button>
+    </div>
+</div>

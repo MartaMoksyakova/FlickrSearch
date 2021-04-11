@@ -1,0 +1,30 @@
+.card{
+    width: 24%;
+    min-height: 300px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+p{
+    font-size: 44px;
+    padding-top: 20%;
+}
+.image, img{
+    height: 200px;
+    width: 180px;
+    border: 1px solid black;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 120px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    font-family: fantasy;
+}
